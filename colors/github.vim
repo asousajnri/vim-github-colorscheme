@@ -20,8 +20,10 @@ endif
 let colors_name = "github"
 
 " {{{ General colors
+hi CursorLineNR cterm=bold guifg=#003300 guibg=#DDFFDD 
+hi CursorLine ctermfg=233 ctermbg=194 guifg=#003300 guibg=#DDFFDD gui=none cterm=none
 hi Normal   ctermfg=0   ctermbg=255  guifg=#000000   guibg=#F8F8FF
-hi Cursor   ctermfg=239   ctermbg=15  guifg=#F8F8FF   guibg=#444454
+hi Cursor   ctermfg=239 ctermbg=15  guifg=#003300 guibg=#DDFFDD 
 hi Visual   ctermfg=15   ctermbg=61  guifg=#FFFFFF   guibg=#3465a3
 hi VisualNOS   ctermfg=15   ctermbg=24  guifg=#FFFFFF   guibg=#204a87
 hi Search   ctermfg=236   ctermbg=228  guifg=#000000   guibg=#FFFF8C  cterm=bold gui=bold
@@ -39,7 +41,7 @@ hi ColorColumn ctermbg=254 guibg=#e4e4e4
 
 " {{{ Vim => 7.0 specific colors
 if version >= 700
-    hi CursorLine ctermbg=253 guibg=#D8D8DD
+    "hi CursorLine ctermbg=253 guibg=#D8D8DD
     hi MatchParen ctermfg=0 ctermbg=252 guifg=#000000 guibg=#cdcdfd
     hi Pmenu        ctermfg=15 ctermbg=8 guifg=#ffffff guibg=#808080 gui=bold   cterm=bold
     hi PmenuSel     ctermfg=0 ctermbg=252 guifg=#000000 guibg=#cdcdfd  gui=italic cterm=italic
@@ -112,16 +114,4 @@ if has("spell")
     hi spellRare    guisp=#fcaf3e
     hi spellLocal   guisp=#729fcf
 endif
-" }}}
-
-" {{{ Airline
-hi airlineN1 ctermfg=188 ctermbg=0 guifg=#dddddd guibg=#000000 gui=none cterm=none
-hi airlineN2 ctermfg=188 ctermbg=238 guifg=#dddddd guibg=#404040 gui=none cterm=none
-hi airlineN3 ctermfg=0 ctermbg=188 guifg=#000000 guibg=#dddddd gui=none cterm=none
-hi airlineInsert1 ctermfg=188 ctermbg=26 guifg=#dddddd guibg=#005cc5 gui=none cterm=none
-hi airlineInsert2 ctermfg=188 ctermbg=17 guifg=#dddddd guibg=#032f62 gui=none cterm=none
-hi airlineVisual1 ctermfg=188 ctermbg=91 guifg=#dddddd guibg=#6f42c1 gui=none cterm=none
-hi airlineVisual2 ctermfg=188 ctermbg=237 guifg=#dddddd guibg=#45267d gui=none cterm=none
-hi airlineReplace1 ctermfg=188 ctermbg=167 guifg=#dddddd guibg=#d73a49 gui=none cterm=none
-hi airlineReplace2 ctermfg=188 ctermbg=124 guifg=#dddddd guibg=#b31d28 gui=none cterm=none
 " }}}
