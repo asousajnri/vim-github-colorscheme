@@ -24,7 +24,7 @@ hi CursorLineNR cterm=bold guifg=#003300 guibg=#DDFFDD
 hi CursorLine ctermfg=233 ctermbg=194 guifg=#003300 guibg=#DDFFDD gui=none cterm=none
 hi Normal   ctermfg=0   ctermbg=255  guifg=#000000   guibg=#F8F8FF
 hi Cursor   ctermfg=239 ctermbg=15  guifg=#003300 guibg=#DDFFDD 
-hi Visual   ctermfg=15   ctermbg=61  guifg=#FFFFFF   guibg=#3465a3
+hi Visual   ctermfg=233 ctermbg=194  guifg=#003300   guibg=#DDFFDD
 hi VisualNOS   ctermfg=15   ctermbg=24  guifg=#FFFFFF   guibg=#204a87
 hi Search   ctermfg=236   ctermbg=228  guifg=#000000   guibg=#FFFF8C  cterm=bold gui=bold
 hi Folded   ctermfg=8 ctermbg=15 guifg=#808080 guibg=#ECECEC gui=bold cterm=bold
