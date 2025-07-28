@@ -41,7 +41,6 @@ hi ColorColumn ctermbg=254 guibg=#e4e4e4
 
 " {{{ Vim => 7.0 specific colors
 if version >= 700
-    "hi CursorLine ctermbg=253 guibg=#D8D8DD
     hi MatchParen ctermfg=0 ctermbg=252 guifg=#000000 guibg=#cdcdfd
     hi Pmenu        ctermfg=15 ctermbg=8 guifg=#ffffff guibg=#808080 gui=bold   cterm=bold
     hi PmenuSel     ctermfg=0 ctermbg=252 guifg=#000000 guibg=#cdcdfd  gui=italic cterm=italic
@@ -62,9 +61,9 @@ hi Ignore   ctermfg=8 guifg=#808080
 hi Identifier   ctermfg=31 guifg=#0086B3
 hi PreProc  ctermfg=247 guifg=#A0A0A0 gui=bold cterm=bold
 hi Comment  ctermfg=246 guifg=#999988
-hi Constant ctermfg=6 guifg=#177F80 gui=none cterm=none
+hi Constant ctermfg=103 guifg=#CC7832 gui=none cterm=none
 hi String   ctermfg=161 guifg=#D81745
-hi Function ctermfg=88 guifg=#990000 gui=bold cterm=bold
+hi Function ctermfg=180 guifg=#E8BF6A gui=none cterm=none
 hi Statement    ctermfg=0 guifg=#000000 gui=bold cterm=bold
 hi Type     ctermfg=60 guifg=#445588 gui=bold   cterm=bold
 hi Number   ctermfg=30 guifg=#1C9898
@@ -80,25 +79,6 @@ hi TypeDef      ctermfg=0 guifg=#000000 gui=bold    cterm=bold
 hi! link FoldColumn Folded
 hi! link CursorColumn   CursorLine
 hi! link NonText    LineNr
-" }}}
-
-" {{{ Aliases
-hi link cppSTL          Function
-hi link cppSTLType      Type
-hi link Character       Number
-hi link htmlTag         htmlEndTag
-hi link htmlLink        Underlined
-hi link pythonFunction  Identifier
-hi link Question        Type
-hi link CursorIM        Cursor
-hi link VisualNOS       Visual
-hi link xmlTag          Identifier
-hi link xmlTagName      Identifier
-hi link shDeref         Identifier
-hi link shVariable      Function
-hi link rubySharpBang   Special
-hi link perlSharpBang   Special
-hi link schemeFunc      Statement
 " }}}
 
 " {{{ Tabs
